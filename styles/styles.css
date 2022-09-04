@@ -157,6 +157,11 @@ footer{
 
 @media (max-width: 600px) {
 
+    body{
+        height: auto;
+        overflow: scroll;
+    }
+
     main .bg-cont .contenedor .cont-completeCard{
         display: flex;
         flex-direction: column;
@@ -166,7 +171,16 @@ footer{
         width: 100%;
     }
 
+    main .bg-cont .contenedor .cont-completeCard .text-cont .numbers .text{
+        padding: 15px;
+    }
+
     main .bg-cont .contenedor .img-cont{
         width: 100%;
+    }
+
+    footer{
+        margin: 0;
+        position: static;
     }
 }
